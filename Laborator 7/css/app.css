@@ -1,0 +1,112 @@
+#firstDiv {
+    background-color: lightcoral;
+}
+#secondDiv{
+    background-color: lightblue;
+}
+#thirdDiv{
+    background-color: lightgreen;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.firstSpan{
+    color: red;
+}
+
+.secondSpan{
+    color: green;
+
+}
+
+.parent {
+    font-size: 25px;
+    color: red !important;
+}
+
+.odd {
+    background-color: lightgray;
+}
+
+.even {
+    background-color: lightpink;
+    color: green;
+}
+
+
+#fisrtDiv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mamaAreMere{
+
+}
+
+avion {
+    background-color: lightcoral;
+    color: blue;
+    font-size: 30px;
+}
+
+/**/
+/*div p{
+    color: red;
+}*/
+
+div > p {
+    color: red;
+}
+
+/*div + p {
+    color: blue;
+}*/
+
+div ~ p {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color:red;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color:violet;
+}
+
+a:active {
+    color: black;
+}
+
+input.keepFocus:focus{
+    background-color: lightyellow;
+}
+
+p.intro::first-letter{
+    font-size: 200%;
+}
+
+::selection {
+    color:red;
+    background-color: lightgoldenrodyellow;
+}
+
+.intro {
+    text-align: justify;
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+    font-variant: small-caps;
+    text-indent: 25px;
+}
+
+.textFormat {
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-style: italic;*/
+}

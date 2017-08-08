@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-6 {
+    width: 50%;
+}

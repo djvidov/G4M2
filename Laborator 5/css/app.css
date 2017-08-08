@@ -1,0 +1,17 @@
+#firstDiv {
+    background-color: lightcoral;
+}
+#secondDiv{
+    background-color: lightblue;
+}
+#thirdDiv{
+    background-color: lightgreen;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+div {
+    font-style: italic;
+}

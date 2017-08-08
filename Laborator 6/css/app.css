@@ -1,0 +1,68 @@
+#firstDiv {
+    background-color: lightcoral;
+}
+#secondDiv{
+    background-color: lightblue;
+}
+#thirdDiv{
+    background-color: lightgreen;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.firstSpan{
+    color: red;
+}
+
+.secondSpan{
+    color: green;
+
+}
+
+.parent {
+    font-size: 25px;
+    color: red !important;
+}
+
+.odd {
+    background-color: lightgray;
+}
+
+.even {
+    background-color: lightpink;
+    color: green;
+}
+
+
+#fisrtDiv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mamaAreMere{
+
+}
+
+avion {
+    background-color: lightcoral;
+    color: blue;
+    font-size: 30px;
+}
+
+/**/
+/*div p{
+    color: red;
+}*/
+
+div > p {
+    color: red;
+}
+
+/*div + p {
+    color: blue;
+}*/
+
+div ~ p {
+    color: blue;
+}
